@@ -37,4 +37,5 @@ m = !git merge#junta as branchs
 pu = !git pull#atualiza o repositorio  
 r = !git rebase#faz um merge porém ele re faz a base do projeto, lembre de colocar o nome da branch "git r branch"  
 f = !git fetch#baixa os arquivos mas nao realiza o merge depois de dado esse comando e preciso dar o comando "git r" para dar um rebase  
-
+re = !git reset --hard HEAD~1#reverte um merge recem feito  
+reh = !git reset --hard#reverte um merge pela hash do commit exemplo "git reh 045501"  
